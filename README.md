@@ -1,1 +1,1 @@
-# celebrate-bride
+# celebrate-pride
