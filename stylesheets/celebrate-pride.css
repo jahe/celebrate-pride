@@ -6,6 +6,15 @@ body {
     height: 100%;
 }
 
+body {
+  background-color: #f3f3f3;
+}
+
+section.hero-section {
+  margin-bottom: 50px;
+  padding: 26px;
+}
+
 .celebrate-section {
     text-align: center;
     position: relative;
@@ -14,20 +23,24 @@ body {
 }
 
 a.celebrate-btn {
-    display: inline-block;
-    position: absolute;
-    width: 340px;
-    height: 80px;
-    line-height: 75px;
-    border-radius: 2px;
-    font-size: 1.9em;
-    background-color: #0f9d58;
-    color: #fff;
-    text-decoration: initial;
-    top: 50%;
-    margin-left: -170px;
-    margin-top: -40px;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 340px;
+  height: 80px;
+  line-height: 75px;
+  border-radius: 2px;
+  font-size: 1.9em;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0,0,0,0.15), 0px 24px 2px rgba(0,0,0,0.1), 0px 34px 30px rgba(0,0,0,0.1);
+  text-decoration: initial;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  background: -moz-linear-gradient(top,#ff3e18 0,#ff3e18 16%,#fc9a00 16%,#fc9a00 33%,#ffd800 33%,#ffd800 49%,#39ea7c 49%,#39ea7c 66%,#39ea7c 66%,#0bb2ff 66%,#0bb2ff 83%,#985aff 83%,#985aff 100%)!important;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ff3e18),color-stop(16%,#ff3e18),color-stop(16%,#fc9a00),color-stop(33%,#fc9a00),color-stop(33%,#ffd800),color-stop(49%,#ffd800),color-stop(49%,#39ea7c),color-stop(66%,#39ea7c),color-stop(66%,#39ea7c),color-stop(66%,#0bb2ff),color-stop(83%,#0bb2ff),color-stop(83%,#985aff),color-stop(100%,#985aff))!important;
+  background: -webkit-linear-gradient(top,#ff3e18 0,#ff3e18 16%,#fc9a00 16%,#fc9a00 33%,#ffd800 33%,#ffd800 49%,#39ea7c 49%,#39ea7c 66%,#39ea7c 66%,#0bb2ff 66%,#0bb2ff 83%,#985aff 83%,#985aff 100%)!important;
+  background: -o-linear-gradient(top,#ff3e18 0,#ff3e18 16%,#fc9a00 16%,#fc9a00 33%,#ffd800 33%,#ffd800 49%,#39ea7c 49%,#39ea7c 66%,#39ea7c 66%,#0bb2ff 66%,#0bb2ff 83%,#985aff 83%,#985aff 100%)!important;
+  background: -ms-linear-gradient(top,#ff3e18 0,#ff3e18 16%,#fc9a00 16%,#fc9a00 33%,#ffd800 33%,#ffd800 49%,#39ea7c 49%,#39ea7c 66%,#39ea7c 66%,#0bb2ff 66%,#0bb2ff 83%,#985aff 83%,#985aff 100%)!important;
+  background: linear-gradient(to bottom,#ff3e18 0,#ff3e18 16%,#fc9a00 16%,#fc9a00 33%,#ffd800 33%,#ffd800 49%,#39ea7c 49%,#39ea7c 66%,#39ea7c 66%,#0bb2ff 66%,#0bb2ff 83%,#985aff 83%,#985aff 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3e18', endColorstr='#985aff', GradientType=0);
 }
 
 a.celebrate-btn:active {
