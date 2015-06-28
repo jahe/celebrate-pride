@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.celebrate-section {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+a.celebrate-btn {
+    display: inline-block;
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    line-height: 75px;
+    border-radius: 2px;
+    font-size: 1.9em;
+    background-color: #0f9d58;
+    color: #fff;
+    text-decoration: initial;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -40px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.celebrate-btn:active {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
